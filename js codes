@@ -1,0 +1,76 @@
+// write code that will return a random number from your name.
+const anyVar = "Kingdavid";
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+console.log(anyVar.charAt(Math.floor(Math.random ()*  anyVar.length)));
+
+/* if(playerOne === computer) {
+    // the game is a tie
+    }
+ else if (playerOne === "rock") {
+    if (computer === "paper") {
+        // computer wins
+        }
+else {
+        //playerOne wins
+        }
+   }
+    else if (playerOne === "paper") 
+    {
+    if (computer === "scissors") {
+            //computer wins
+} else {
+        //playerOne wins
+        }
+} 
+else {
+if (computer === "rock") {
+    //computer wins
+}
+    else {
+        //playerOne wins
+    }
+} */
+
+/* let playerTwo = "paper"
+let computerTwo = "scissors"
+
+switch (playerTwo) {
+    case computerTwo:
+        console.log("Tie game");
+        break;
+case "rock": 
+if(computerTwo === "paper") {
+    console.log("computerTwo wins");
+} else {
+    console.log("playerTwo wins");
+} 
+break;
+case "paper":
+    if(computerTwo === "scissors") [
+        console.log("computerTwo wins")
+    ]
+    else{
+        console.log("playerTwo wins")
+    }
+    break;
+    default:
+        if(computerTwo === "rock") {
+            console.log("computerTwo wins")
+        }
+        else {
+            console.log("playerTwo wins")
+        }
+} */
+
+        let player1 = "rock";
+        let comp = "paper";
+        let result = player1 === comp ? "Tie game"
+        : player1 === "rock" && comp === "paper" ? "computer wins"
+        : player1 === "paper" && comp === "scissors" ? "computer wins"
+        : player1 === "scissors" && comp === "rock" ? "computer wins"
+        : "player1 wins";
+        console.log (result);
